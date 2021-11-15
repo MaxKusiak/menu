@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    background-color: orangered;
+    box-shadow: 0 0 5px black;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 16px;
+}
+.capital{
+    display: flex;
+    position: relative;
+}
+.capital ul{
+    display: none;
+    position: absolute;
+}
+ul{
+    list-style-type: none;
+}
+.capital-1{
+    background-color: red;
+    min-width: 100px;
+    top: 53px;
+    left: 0;
+    text-align: center;
+}
+.capital-2{
+    background-color: orange;
+    min-width: 100px;
+    top: 0;
+    left: 100%;
+}
+.capital-3{
+    background-color: rgb(153, 90, 39);
+    min-width: 100px;
+    top: 53px;
+    left: 100%;
+}
+.li3:hover .capital-3{
+    display: block;
+}
+.li2:hover .capital-2{
+    display: block;
+}
+.li1:hover .capital-1{
+    display: block;
+}
+
+
+.li1:hover{
+    background-color: black;
+}
+.li1:hover>a{
+    color: white;
+}
+
+
+.li2:hover{
+    background-color: black;
+    color: white;
+}
+.li2:hover>a{
+    color: white;
+}
+
+
+.li3:hover{
+    background-color: black;
+    color: white;
+}
+.li3:hover>a{
+    color: white;
+}
+
+
+.capital-4{
+    background-color: red;
+    min-width: 100px;
+    top: 53px;
+    left: 80px;
+    text-align: center;
+}
+.capital-5{
+    background-color: orange;
+    min-width: 100px;
+    top: 0;
+    left: 100%;
+    text-align: center;
+}
+.capital-6{
+    background-color: rgb(153, 90, 39);
+    min-width: 100px;
+    top: 53px;
+    left: 100%;
+    text-align: center;
+}
+.li4:hover .capital-4{
+    display: block;
+}
+.li5:hover .capital-5{
+    display: block;
+}
+.li6:hover .capital-6{
+    display: block;
+}
+
+
+.li4:hover{
+    background-color: black;
+}
+.li4:hover>a{
+    color: white;
+}
+
+
+.li5:hover{
+    background-color: black;
+}
+.li5:hover>a{
+    color: white;
+}
+
+
+.li6:hover{
+    background-color: black;
+}
+.li6:hover>a{
+    color: white;
+}
